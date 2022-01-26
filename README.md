@@ -75,6 +75,9 @@ Some of the dataset have null values.
 
 #### 7. Acknowledging Limitations
 Some of the null values in wfreqs will cause the gauge chart to show " - ". Using isNaN function to make these null values to 0 for better visualisation. However, this might get mistaken as zero value by some users.
+```
+if (isNaN(wfreqs)) wfreqs = 0;
+```
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
