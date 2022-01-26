@@ -74,7 +74,7 @@ Data is clean.
 Some of the dataset have null values.
 
 #### 7. Acknowledging Limitations
-Some of the null values in wfreqs will cause the gauge chart to show " - ". Using isNaN function to make these null values to 0 for better visualisation. However, this might get mistaken as zero value by some users. 
+Some of the null values in wfreqs will cause the gauge chart to show " - ". Using isNaN function to make these null values to 0 for better visualisation. However, this might get mistaken as zero value by some users.
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
@@ -91,6 +91,27 @@ The hosted site is available at: https://suyinwb.github.io/Plotly_Deployment/
 >Bubble Chart
 
 ![Bubble Chart](resources/bubble_chart.png)
+
+# ## DELIVERABLES 4: HTML and Bootstrap to customize the webpage
+
+1. Mobile responsive
+```
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+```
+
+2. Add more information so users know how to use the dropdown menu
+
+"Use the interactive charts below to explore the dataset from all our different test subjects.
+If you know your subject ID, you can find your own charts from the dropdown on the left.""
+
+3. Changed Jumbotron background to a photo of a belly button
+```
+<style>
+      .jumbotron{
+          background: url("https://www.dictionary.com/e/wp-content/uploads/2010/07/1000x700_belly_button_jpg_XjWlS09V.jpg") center center / cover no-repeat;
+      }
+</style>
+```
 
 ## Summary
 Using Git Pages, we are able to host the dashboard so it can be used publicly.
