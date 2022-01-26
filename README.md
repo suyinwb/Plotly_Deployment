@@ -40,10 +40,10 @@ Roza has a partially completed dashboard that she needs to finish. She has a com
 
 ### Purpose
 
-1. Deliverable 1: Create a Horizontal Bar Chart
-2. Deliverable 2: Create a Bubble Chart
-3. Deliverable 3: Create a Gauge Chart
-4. Deliverable 4: Customize the Dashboard
+* Deliverable 1: Create a Horizontal Bar Chart
+* Deliverable 2: Create a Bubble Chart
+* Deliverable 3: Create a Gauge Chart
+* Deliverable 4: Customize the Dashboard
 
 ## Analysis And Challenges
 
