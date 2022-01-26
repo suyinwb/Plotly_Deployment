@@ -56,7 +56,8 @@ function buildMetadata(sample) {
     });
 
     wfreqs = result.wfreq;
-    if (isNaN(wfreqs)) wfreqs = 0;
+    //if (isNaN(wfreqs)) wfreqs = 0;
+    wfreqs = wfreqs || 0;
     console.log(parseInt(wfreqs));
 
   });
