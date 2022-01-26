@@ -56,6 +56,7 @@ function buildMetadata(sample) {
     });
 
     wfreqs = parseInt(result.wfreq);
+    console.log(wfreqs);
     //make NaN values to 0
     if (isNaN(wfreqs)) wfreqs = 0;
     //wfreqs = wfreqs || 0;
