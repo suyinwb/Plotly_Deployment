@@ -56,7 +56,7 @@ function buildMetadata(sample) {
     });
 
     wfreqs = parseInt(result.wfreq);
-    //make NaN values to 0; works with localhost server but not on git Pages
+    //make NaN values to 0
     if (isNaN(wfreqs)) wfreqs = 0;
     //wfreqs = wfreqs || 0;
     console.log(wfreqs);
