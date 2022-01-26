@@ -55,10 +55,10 @@ function buildMetadata(sample) {
     PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
     });
 
-    wfreqs = result.wfreq;
+    wfreqs = parseInt(result.wfreq);
     //if (isNaN(wfreqs)) wfreqs = 0;
     wfreqs = wfreqs || 0;
-    console.log(parseInt(wfreqs));
+    console.log(wfreqs);
 
   });
 }
