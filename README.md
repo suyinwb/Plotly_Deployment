@@ -74,7 +74,7 @@ Data is clean.
 Some of the dataset have null values.
 
 #### 7. Acknowledging Limitations
-Some of the null values in wfreqs will cause the gauge chart to show " - ".
+Some of the null values in wfreqs will cause the gauge chart to show " - ". Using isNaN function to make these null values to 0 for better visualisation. However, this might get mistaken as zero value by some users. 
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
