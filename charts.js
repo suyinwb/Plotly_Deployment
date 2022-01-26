@@ -55,9 +55,9 @@ function buildMetadata(sample) {
     PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
     });
 
-    wfreqs = parseInt(result.wfreq);
+    wfreqs = result.wfreq;
     if (isNaN(wfreqs)) wfreqs = 0;
-    console.log(wfreqs);
+    console.log(parseInt(wfreqs));
 
   });
 }
