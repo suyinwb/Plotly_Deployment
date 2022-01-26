@@ -55,7 +55,8 @@ function buildMetadata(sample) {
     PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
     });
 
-    wfreqs = parseInt(result.wfreq);
+    //wfreqs = parseInt(result.wfreq);
+    wfreqs = result.wfreq;
     console.log(wfreqs);
     //make NaN values to 0
     if (isNaN(wfreqs)) wfreqs = 0;
