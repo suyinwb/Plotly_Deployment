@@ -92,7 +92,7 @@ The hosted site is available at: https://suyinwb.github.io/Plotly_Deployment/
 
 ![Bubble Chart](resources/bubble_chart.png)
 
-# ## DELIVERABLES 4: HTML and Bootstrap to customize the webpage
+### DELIVERABLES 4: HTML and Bootstrap to customize the webpage
 
 1. Mobile responsive
 ```
