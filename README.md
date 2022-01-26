@@ -1,7 +1,7 @@
 # Plotly Deployment
 
 ## Background
-Roza is raring to start her project. She knows that she wants to create engaging and dynamic charts. It's her task to identify the best way to share her information with her audience.
+Roza is ready to start her project. She knows that she wants to create engaging and dynamic charts. It's her task to identify the best way to share her information with her audience.
 
 Her first step is to master the basics of Plotly. For example, if she can create a basic chart in Plotly, she can build on her knowledge to create more advanced ones. Furthermore, she needs to identify the types of charts she can create with Plotly. Knowing the available options will enable her to select an appropriate visualization type for a dataset.
 
@@ -50,7 +50,7 @@ Deliverable 4: Customize the Dashboard
 ## Methodology: Analytics Paradigm
 
 #### 1. Decomposing the Ask
-
+Create an interative dashboard for users to choose their own dataset.
 
 #### 2. Identify the Datasource
 data source is samples.json, given by Roza.
@@ -58,25 +58,23 @@ data source is samples.json, given by Roza.
 * _**id**_: key that identifies the ID number.
 * _**otu_ids**_ : roperty is an array of the ID numbers of all the bacteria found in this person's navel. OTU stands for Operational Taxonomic Unit, and here it means species or bacterial type. In this instance, there were 80 bacterial types with distinct ID numbers.
 * _**sample_values**_:  array contains the corresponding species name for each bacterial ID number. Some bacterial species have different ID numbers, but are clumped together under the same _**otu_label**_.
-*
-
+* _**wfreqs**_: washing frequency
 
 
 ### 3. Define Strategy & Metrics
 **Resource:** Javascript, CSS, HTML, Plotly, JavaScript's Math library, D3.json()
 
 #### 4. Data Retrieval Plan
-
+Using d3.json("samples.json")
 
 #### 5. Assemble & Clean the Data
-
+Data is clean.
 
 #### 6. Analyse for Trends
-
+Some of the dataset have null values.
 
 #### 7. Acknowledging Limitations
-
-
+Some of the null values in wfreqs will cause the gauge chart to show " - ".
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
@@ -95,6 +93,11 @@ The hosted site is available at: https://suyinwb.github.io/Plotly_Deployment/
 ![Bubble Chart](resources/bubble_chart.png)
 
 ## Summary
-
+Using Git Pages, we are able to host the dashboard so it can be used publicly.
 
 ## Appendix
+
+To get around CORS, we must run the http server on our local machine. Go to the folder of index.html and run this in terminal.
+```
+ python -m http.server
+ ```
