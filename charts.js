@@ -150,7 +150,6 @@ function buildCharts(sample) {
     // 3. Create a variable that holds the washing frequency.
     //already defined as global variable wfreqs in buildMetadata()
 
-
     // 4. Create the trace for the gauge chart.
     var gaugeData = [{
     type: "indicator",
